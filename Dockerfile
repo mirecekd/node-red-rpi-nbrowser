@@ -1,4 +1,6 @@
-FROM arm32v7/node:buster
+FROM arm32v7/node:carbon-buster
+#FROM arm32v7/node:buster
+#
 
 # Switch back to root user to install packages and configure entrypoint
 USER root
