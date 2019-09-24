@@ -63,4 +63,4 @@ ENV FLOWS=flows.json
 ENV NODE_PATH=/usr/src/node-red/node_modules:/data/node_modules
 ENV DEBUG=nightmare
 ENTRYPOINT ["/entrypoint"]
-CMD ["npm", "start", "--", "--userDir", "/data"]
+#CMD ["npm", "start", "--", "--userDir", "/data"]
