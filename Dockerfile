@@ -50,7 +50,7 @@ USER node-red
 
 RUN npm install
 
-RUN npm install node-red-contrib-string node-red-contrib-nbrowser
+RUN npm install node-red-contrib-string node-red-contrib-nbrowser node-red-contrib-home-assistant-websocket
 
 RUN npm uninstall electron
 RUN npm install electron@1.7.12
